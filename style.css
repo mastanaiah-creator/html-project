@@ -1,0 +1,526 @@
+/* ₹ */
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(9, 9, 9);
+}
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+.search1{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center; 
+    text-align: center;   
+    margin-left: 70px;
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+    /* width: 50px; */
+    font-size: 30px;
+    /* font-weight: 100px; */
+}
+
+.content1:hover::after{
+    content: "Search";
+    position: absolute;
+    top: 75px;
+    right: 225px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    
+}
+.content2:hover::after{
+    content: "Cart";
+    position: absolute;
+    top: 45px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    
+}
+.content3:hover::after{
+    content: "Login / Signup";
+    position: absolute;
+    top: 75px;
+    right: 15px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    
+}
+/*----------- header part closed------------------ */
+
+.background{
+    font-size: 300px;
+    font-weight:700;
+    opacity:30%;
+    z-index: 1;
+    position:absolute;
+    top: 150px;
+}
+.text{
+    margin-top: 60px;
+}
+.message{
+    font-size: 50px;
+}
+
+.article{
+    display: flex;
+    z-index: 2;
+    position: relative;
+    top: 220px;
+    left: 150px;
+    
+
+}
+.main-image{
+    width: 500px;
+    height: 550px;
+    /* padding: 10px 20px; */
+    position: absolute;
+    left:900px;
+    top: 40%;
+}
+.shopnow{
+    /* position: relative;
+    top: 40%; */
+    margin-top: 270px;
+    margin-left: 150px;
+
+}
+.corosel{
+    margin-left: 47%;
+    position: relative;
+    top: 200px;
+}
+
+/*-------------- Featured Products ----------------*/
+.featureproducts{
+    margin-top: 300px;
+    margin-left: 39%;    
+}
+.heading1{
+    font-size: 40px;
+}
+.imagescroll{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    text-align: center;
+    
+  
+}
+.image3{
+    font-size: 20px;
+}
+.image2{
+    margin-top: 75px;
+}
+.image1{
+    margin-top: 150px;
+}
+.image5{
+    margin-top: 150px;
+    
+
+}
+.image4{
+    margin-top: 75px;
+}
+.featuredimage:hover{
+    transform: scale(1.05);
+}
+/* Top Products */
+.heading2{
+    margin-left: 23%;
+    margin-top: 200px;
+}
+
+.subheading{
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.anchor{
+    padding: 5px 15px ;
+    margin-left: 150px;
+    font-size:17px;
+    font-weight: 400;
+}
+.anchor:hover{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.topimages{
+    width: 350px;
+    height: 310px;
+    /* opacity: 20%; */
+    background-color:rgba(250, 243,243,0.105);
+    padding: 60px 70px;
+    
+}
+.topimages:hover{
+    transform: scale(1.02);
+
+}
+
+
+.topproducts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+    margin-left: 10px;
+    row-gap: 10px;
+    padding: 10px 20px;
+}
+.border{
+    border: 5px solid gainsboro;
+    width:350px;
+    border-radius: 5px;
+}
+.button{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 80%;
+    color: white;
+}
+/* footer section */
+.footerheading{
+    text-align: center;
+    margin-top: 160px;
+
+}
+.advantages{
+    display: flex;
+    margin-top: 160px;
+    list-style-type: none;
+
+}
+.avd1{
+    margin-left: 20px;
+}
+.avd2,.avd3,.avd4{
+    margin-right: 180px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px 30px;
+    
+}
+.foot1,.foot2,.foot3,.foot4{
+    margin-top: 50px;
+}
+.color{
+    background-color:black;
+    /* width: 100%; */
+}
+/* cart styles */
+.cart{
+    overflow-y: scroll;
+    height:800px;
+    /* background-color: white; */
+    width: 60%;
+    background-color: rgb(20,20,20);
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+.cart-item1{
+    display: flex;
+    justify-content:space-around;
+}
+.cart-img{
+    width: 200px;
+    height: 200px;
+    /* background-color: black; */
+    /* margin-left: 5px; */
+    margin-top: 10px;
+}
+.cart-button{
+    width: 100px;
+}
+.summary{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.order{
+    margin-bottom: 50px;
+}
+/* product-styles */
+.productimages{
+    width: 120px;
+    height: 120px;
+}
+.product1{
+    border: 2px solid grey;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+}
+.productimage2{
+    width:820px;
+}
+.product-details{
+    display: flex;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.stock{
+    position: absolute;
+    right: 15px;
+    font-size: 25px;
+    padding:5px ;
+    background-color: green;
+    z-index: 1;
+}
+.discount1{
+    position: relative;
+    z-index: 2;
+    top: 12px;
+    margin-bottom: 10px;
+}
+.emi{
+     border: 1px solid whitesmoke;
+     border-radius: 5px;
+     align-content: center;
+     height: 75px;
+     width: 250px;
+     margin-right: 12px;
+     font-size: 20px;
+     padding: 10px;
+}
+.paylater{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    align-content: center;
+    height: 75px;
+    width: 250px;
+    margin-right: 12px;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.spec{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.review{
+    margin-right: 180px;
+    
+
+}
+.overviews{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+.overview{
+    padding: 10px 20px;
+    
+}
+.overview:hover{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+   
+}
+.relatedproduct{
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 150px;
+
+}
+
+/* registration */
+
+.x{
+    color: white;
+    margin-left: 390px;
+    background:black;
+    /* height: fit-content; */
+} 
+.main-div{
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 80px;
+    width:500px;
+    /* height: auto; */
+    background-color: rgba(94, 92, 92, 0.223);
+}
+
+.close{
+    margin-left: 450px;
+}
+.signup{
+    margin-right: 340px;
+    color: rgb(228, 228, 247);
+}
+.signup-text{
+    font-size: 20px;
+    margin-right: 147px;
+    color: rgb(142, 142, 146);
+}
+.a1{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+input{
+    color: whitesmoke;
+    width: 90%;
+    border: 1px solid  rgb(94, 92, 92);
+    border-radius: 4px;
+    background-color:rgba(94, 92, 92, 0.223);
+    padding: 10px;
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.f-button{
+     font-size: 15px;
+    border-radius: 5px;
+    border: solid red;
+    color: white;
+    background-color: red;
+    padding: 10px   ;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+.div-2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: rgb(194, 188, 188);
+
+}
+.footers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 25px;
+    
+}
+.facebook{
+    width: 80%;
+    padding-top: 10px;
+    background-color: rgba(84, 84, 227, 0.636);
+    
+}
+.google{
+    width: 80%;
+    padding-top: 10px;
+    background-color: red;
+
+}
+.twitter{
+    width: 80%;
+    padding-top: 10px;
+    background-color: rgb(10, 154, 211);
+
+}
+
+@media screen and (max-width:376px){
+
+      .logo{
+        
+        margin-right: 750px;
+    }
+    #tech{
+        font-size: 50px;
+        
+    }
+    .bi-cart3{
+        font-size: 80px;
+    }
+    .badge{
+        display:none;
+    }
+    .search1{
+        font-size: 80px;
+    }
+    .bi-person-fill{
+        font-size: 80px;
+    }
+    .background{
+        font-size: 400px;
+    }
+   .corosel{
+    left: 150%;
+    top: 100px;
+    
+   }
+   .main-image{
+    top: 45%;
+   }
+   .heading1{
+    position: relative;
+    left: 235%;
+   }
+   .bi-dot{
+       display: none;
+   }
+   .heading2{
+      /* margin-left: 200%; */
+      position: relative;
+      left: 70%;
+      font-size: 35px;
+     
+   }
+   .subheading{
+         display: flex;
+   }
+   .footerheading{
+    position: relative;
+    left: 150%;
+   }
+   .advantages{
+    font-size: 30px;
+   }
+   .color{
+    width: 405%;
+   }
+   .dopes{
+    margin-left: 25px;
+   }
+
+    
+    
+    
+}

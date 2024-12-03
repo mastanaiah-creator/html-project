@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container-fluid">
+    <div>
+        <!-- header part stared -->
+        <header>
+            <div class="logo text-white-50"><h1 id="tech">Tech-Shop</h1></div>
+            <nav class="side-op d-flex ">
+                    
+                <a href="#" class="bi bi-search text-white-50 search1  content1"></a>
+                <a href="http://127.0.0.1:5500/cart.html" class="bi bi-cart3 text-white-50 position-relative search1 content2"><span class="badge bg-danger text-white rounded rounded-circle position-absolute start-50  bottom-50 fs-6 badge">4</span></a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#login" class=" bi bi-person-fill text-white-50  search1 content3">  </a>
+
+        <!-- registration part -->
+                <div class="main-div modal" id="login" >
+                    <div class="modal-dialog ">
+                        <button class="btn btn-close text-bg-light close" data-bs-dismiss="modal"></button>
+                    <!-- </div> -->
+                        <h3 class="signup">Signup</h3>
+                        <h5 class="signup-text">Already have an account ?<a href="#" class="a1">Login</a></h5>
+                        <div class="input-data">
+                        <input type="text" placeholder="Username"><br>  
+                        <input type="email" placeholder="Email"><br>
+                        <input type="password" placeholder="Password"><br>
+                        <input type="password" placeholder="Confirm Password">
+                        <button data-bs-dismiss="modal" class="f-button">Signup</button>
+                        
+                        </div>
+                        <div class="div-2"><hr style="width: 90%; margin-left: 15px;"><h6 style="margin-left: 25px;">or login with </h6><hr style="width: 90%;"></div>
+                             <footer class="footers">
+                             <div class="facebook"><h5>Facebook</h5></div>
+                             <div class="google"><h5>Google</h5></div>
+                             <div class="twitter"><h5>Twitter</h5></div>
+                             </footer>
+                        </div> 
+                    
+                    
+                </div>
+            </nav>  
+        </header>
+        <!-- header part closed -->
+        <main class="main" >
+            <span class=" background">InEar</span>
+            <article class="article text-white-50">
+               <div class="text">
+                <p class="fs-2 fw-bold boat "> boAt Airdopes 131</p>
+                <h2 class=" message fw-bold mb-4">FeatherWeight For <br> Comfort All-Day</h2>
+               <!-- <span class="price"> -->
+                <span class="price bi-currency-rupee fs-2 pe-2 fw-bold ">1,099</span>
+               <span class=" fs-3 opacity-50 text-decoration-line-through fw-bold">₹2,990</span>
+               <!-- </span> -->
+               </div>
+            </article>
+            <div>
+                <img src="Assets/images/products/boat131-3.png" class=" main-image" alt=" Airdopes">
+               </div>
+               <div>
+                <button class=" btn btn-danger shopnow fs-3">Shop Now</button>
+            </div>
+            <span class="bi bi-three-dots fs-1 text-white  corosel"></span>
+        </main>
+        <!-- featured products -->
+        <div class="featureproducts">
+            <h2 class="  text-white-50 heading1">Featured Products </h2>
+        </div>
+        <div class="imagescroll">
+            <div class="image1">
+                <figure>
+                    <figcaption class="text-white-50 fs-6">JBL Endurence Run <br> sports</figcaption>
+                    <img class="featuredimage" style="width: 210px; padding: 30px;" src="Assets/images/products/jbl-endu-1.png"  alt=" JBL Endurence Run sports">
+                    <figcaption class="bi bi-currency-rupee fw-bold text-white-50 fs-5">999 <span  class=" text-decoration-line-through opacity-50 fs-6">₹1,599</span> </figcaption>
+                 </figure>    
+            </div>
+            <div class="image2">
+                <figure>
+                    <figcaption class="text-white-50 fs-4">boAt Airdopes 203</figcaption>
+                    <img class="featuredimage" style="width: 310px;padding: 50px;" src="Assets/images/products/boat203-1.png"  alt="boAt Airdopes 203">
+                    <figcaption class="bi bi-currency-rupee fw-bold text-white-50 fs-4">1074 <span  class=" text-decoration-line-through opacity-50 fs-5">₹3,999</span> </figcaption>
+                </figure>
+            </div>
+            <div class="image3">
+               <figure>
+                   <figcaption class="text-white-50 fs-3">boAt Rockerz 518</figcaption>
+                   <img class="featuredimage " style="width: 400px; padding: 50px;" src="Assets/images/products/boat518-1.png"  alt="boAt Rockerz 518">
+                   <figcaption class="bi bi-currency-rupee fw-bold text-white-50 fs-3">1299 <span  class=" text-decoration-line-through opacity-50 fs-4">₹3,999</span> </figcaption>
+               </figure>
+            </div>
+            <div class="image4">
+                <figure>
+                    <figcaption class="text-white-50 fs-4">BL Tune 760nc</figcaption>
+                    <img class="featuredimage" style="width: 310px; padding: 50px;" src="Assets/images/products/jbl760nc-1.png" alt="JBL Tune 760nc">
+                    <figcaption class="bi bi-currency-rupee fw-bold text-white-50 fs-4">5,999 <span  class=" text-decoration-line-through opacity-50 fs-5">₹7,599</span> </figcaption>
+                </figure>
+            </div>
+            <div class="image5">
+                <figure>
+                    <figcaption class="text-white-50 fs-6">boAt Rockerz 255r</figcaption>
+                    <img class="featuredimage" style="width: 210px; padding:30px; " src="Assets/images/products/boat255r-1.png"  alt="boAt Rockerz 255r">
+                    <figcaption class="bi bi-currency-rupee fw-bold text-white-50 fs-5">899 <span  class=" text-decoration-line-through opacity-50 fs-6">₹2,999</span> </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center m-5 corosel2">
+            <span class="bi bi-dot fs-1 fw-bold text-white-50 "></span>
+            <span class="bi bi-dot fs-1 fw-bold text-white-50"></span>
+            <span class="bi bi-dot fs-1 fw-bold text-danger"></span>
+            <span class="bi bi-dot fs-1 fw-bold text-white-50"></span>
+            <span class="bi bi-dot fs-1 fw-bold text-white-50"></span>
+        </div>    
+    </div>
+    <!-- top products -->
+    <div class="topflex">
+        <div class="heading2 text-white-50">
+            <h1 class="heading2">Top Products</h1>
+        </div>
+        <div class="subheading ">
+            <a class="anchor text-white text-decoration-none" href="#">All</a>
+            <a class="anchor text-white text-decoration-none" href="#">Headphones</a>
+            <a class="anchor text-white text-decoration-none" href="#">Earbuds</a>
+            <a class="anchor text-white text-decoration-none" href="#">Earphones</a>
+            <a class="anchor text-white text-decoration-none" href="#">Neckbands</a>
+        </div>  
+    </div>
+    <div class="topproducts">
+        <div class="border">
+             <a href="http://127.0.0.1:5500/product-details.html" id="one"><img class="topimages" src="Assets/images/products/jbl660nc-1.png" alt="JBL Live 660NC" ></a>
+            <div class="pt-4 ps-4 fs-5 ">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4 ">JBL Live 660NC</h2>
+            </div>
+            <div class="ps-lg-4 ">
+                <h4 class="fs-6 text-white-50 dopes">Wireless Ear-Over NC <br>Headphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">9,999 <span class=" fs-5 text-decoration-line-through">₹14,999</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+            
+        </div>
+        <div class="border">
+            <img class="topimages " src="Assets/images/products/boat518-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">boAt Rockerz 518</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">On-Ear Wireless Headphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">1,299 <span class=" fs-5 text-decoration-line-through">₹3,990</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/boat131-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">boAt Airdopes 131</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">Wireless In-Ear Earbuds</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">1,099 <span class=" fs-5 text-decoration-line-through">₹2,990</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/boat110-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">boAt BassHeads 110</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">In-Ear Wired Earphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">449 <span class=" fs-5 text-decoration-line-through">₹999</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/boat410-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">boAt Rockerz 410</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">Bluetooth Wired On-Ear <br>Headphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">1,599 <span class=" fs-5 text-decoration-line-through">₹2,990</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/jbl200bt-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">JBL Live 200BT</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">In-Ear Wireless Neckbands</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">3,699 <span class=" fs-5 text-decoration-line-through">₹5,299</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/sonyXb910n-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">Sony WH-XB910N</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">Wireless Over-Ear <br>Headphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">13,489 <span class=" fs-5 text-decoration-line-through">₹19,990</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/jbl760nc-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+               
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">JBL Tune 760NC</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">Wireless Ear-Over NC <br>Headphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">5,999 <span class=" fs-5 text-decoration-line-through">₹7,999</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/boat255r-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">boAt Rockerz 255</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">In-Ear Wireless Neckbands</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">899 <span class=" fs-5 text-decoration-line-through">₹2,990</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/jbl100-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">JBL Wave 100</h2>
+            </div>
+            <div class="ps-lg-4">
+                <h4 class="fs-6 text-white-50 dopes">In-Ear Truly Wireless Earbuds</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">2,999 <span class=" fs-5 text-decoration-line-through">₹6,999</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border">
+            <img class="topimages" src="Assets/images/products/sony1000xm4-1.png" alt="">
+            <div class="pt-4 ps-4 fs-5">
+                <span class=" bi bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+                <span class="bi-star-fill text-danger"></span>
+             
+            </div>
+            <div class="ps-4 pt-2  fw-bold text-white-50">
+                <h2 class="fs-4">Sony WF-1000XM4</h2>
+            </div>
+            <div class="ps-lg-4 ">
+                <h4 class="fs-6 text-white-50 dopes">Wireless In-Ear NC <br>Headphones</h4>
+            </div><hr class="text-white-50 w-75 ms-4">
+            <div>
+                <span class="bi bi-currency-rupee fs-4 fw-bold text-white-50 ps-3">2,999 <span class=" fs-5 text-decoration-line-through">₹6,999</span></span>
+            </div>
+            <div>
+                <button class="button ">Add to cart</button>
+            </div>
+        </div>
+        <div class="border align-content-center  text-white-50"><a href="#" class="search1"><h2>Browse All <br>Products <span class=" bi bi-arrow-right"></span></h2></a></div>
+    
+    </div>
+    <!-- footer started -->
+    <div>
+        <div class="footerheading">
+            <h2 class="fw-bold text-white-50 fs-1">Our Advantages</h2>
+        </div>
+        <div>
+            <ul class="advantages">
+                <li class="avd1">
+                    <li class="me-4"><span  class="bi-truck-front-fill fs-1 text-danger"></span></li>
+                    <li class=" text-white-50 fw-bold">Express Delivery <p class="fs-6 fw-light" >Ships in 24 Hours</p></li>
+                </li>
+                <li class="avd2">
+                    <li class="me-4"> <span class="bi-shield-shaded fs-1 text-danger"></span></li>
+                    <li class="fw-bold text-white-50">Brand Warranty <p class="fw-light">100% Original Products</p></li>
+                </li>
+                <li class="avd3">
+                    <li class="me-4"><span class="bi-tags-fill fs-1 text-danger"></span></li>
+                    <li class="fw-bold text-white-50">Exciting Deals <p class="fw-light">On all prepaid orders</p></li>
+                </li>
+               <li class="avd4">
+                   <li class="me-4"><span class="bi-credit-card-fill fs-1 text-danger"></span></li>
+                   <li class="fw-bold text-white-50">Secure Payments <p class="fw-light">SSL/Secure certificate</p></li>
+               </li>
+            </ul>  
+        </div>   
+    </div >
+    <footer class="color">
+        <div class="footer">
+            <div class="foot1">
+                <h2 class="text-white-50 mb-3">Tech-Shop</h2>
+                <p class="text-white-50">Subscribe to our Email alerts to recive <br>early discount offers,and new products <br>info.</p>
+                <input placeholder="Email Address*" class="btn btn-black border-white border-1 text-white-50 w-100 p-2 text-start mb-3 fs-5 "></input> <br>
+                <button  class="btn btn-danger ps-4 pe-4  p-2 fs-5">Subscribe</button>
+            </div>
+            <div  class="foot2 text-white-50">
+                <h4 class="mb-4">Help</h4>
+                <p>FAQs</p>
+                <P>Trake Order</P>
+                <p>Cancel Order</p>
+                <p>Return Order</p>
+                <p>Warranty Info</p>
+            </div>
+            <div  class="foot3 text-white-50">
+                <h4 class="mb-4">Policies</h4>
+                <p>Return Policy</p>
+                <p>Security</p>
+                <p>Sitemap</p>
+                <P>Privacy Policy</P>
+                <p>Terms & Conditions</p>
+            </div>
+            <div  class="foot4 text-white-50">
+                <h4 class="mb-4">Company</h4>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Service Centers</p>
+                <p>Careers</p>
+                <p>Affiliates</p>
+            </div> 
+        </div><hr class="border-1 text-white-50">
+        <div class="d-flex justify-content-between"> 
+            <p class="text-white-50 fs-5 p-4">2024 | All Rights Reserved. Built by |<span class="text-white"> MASTHAN</span></p>
+            <div class="align-content-center p-4 ">
+                <span class="bi bi-facebook fs-4 text-white me-4"></span>
+                <span class="bi bi-twitter me-4 fs-4 text-white"></span>
+                <span class="bi bi-instagram me-4 fs-4 text-white"></span>
+                <span class="bi-linkedin fs-4 text-white"></span>
+
+            </div>
+        </div>
+    </footer>
+    
+
+
+   
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
